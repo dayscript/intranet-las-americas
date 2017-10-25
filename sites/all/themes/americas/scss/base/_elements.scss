@@ -1,0 +1,225 @@
+// Elements
+//
+// Things to review before you write code here:
+// - Be sure to load after "foundation" import.
+// - Also, before adding styles be sure to modify variables in the
+//   "base/_common.scss" file. You may not need to write any code.
+
+// Headings
+//------------------------------------------
+h1, h2, h3,
+h4, h5, h6 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-bottom: 24px;
+}
+
+.nombre {
+  font-size: 0.8em;
+  color: $primary-color;
+  line-height: 10px;
+}
+
+.empleado {
+  margin-top: 10px;
+  font-size: 0.8em;
+  line-height: 10px;
+  &.big{
+    font-size: 1.2em;
+    margin-top: 70px;
+    font-family: $font-header;
+    font-weight: normal;
+  }
+}
+
+.fecha {
+  font-size: 0.8em;
+  color: $secondary-color;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.fecha-white {
+  font-size: 0.8em;
+  color: white;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.fecha-birthday {
+  text-transform: uppercase;
+  color: $primary-color;
+  font-family: $font-header;
+  &.dia {
+    font-size: 1.7em;
+    line-height: 1em;
+    margin-top: 8px;
+    &.big{
+      font-size: 4.7em;
+      margin-top: 30px;
+    }
+  }
+  &.mes {
+    font-size: 0.9em;
+    &.big{
+      font-size: 1.6em;
+    }
+  }
+}
+
+.cargo {
+  font-size: 0.8em;
+  color: $secondary-color;
+  font-style: italic;
+  margin-top: 2px;
+  &.big{
+    font-size: 1em;
+    margin-top: 8px;
+  }
+}
+
+.title {
+  font-size: 1.6em;
+  font-family: $font-header;
+  color: $primary-color;
+  line-height: 1.2em;
+  &.list{
+    font-size: 1em;
+    margin-top: 6px;
+  }
+}
+.categoria{
+  .item-list ul li {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: $info-color;
+    line-height: 0;
+  }
+  .item-list ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+.resumen {
+  margin: 16px 0;
+}
+
+.button {
+  border-radius: 6px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.condensed {
+  padding: 0;
+}
+
+hr {
+  &.light {
+    border-color: white !important;
+  }
+}
+
+.section-title {
+  color: white;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  font-family: $font-header;
+}
+.section-title-header {
+  color: white;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-family: $font-header;
+  padding: 60px 0 0 0px;
+  text-align: center;
+  @media screen and (min-width: 580px){
+    font-size: 2.4em;
+    padding: 50px 0 0 21px;
+    text-align: left;
+  }
+}
+
+body{
+  background: #f7f7f7;
+}
+.margintop{
+  margin-top: 58px;
+}
+
+//Paginador
+.item-list .pager {
+  clear: both;
+}
+ul.pagination li a, ul.pagination li button {
+  color: #666;
+}
+.button-group{
+  .button.small {
+    padding-top: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.6rem;
+    font-size: 0.7rem;
+    margin-left: 4px;
+    margin-bottom: 10px;
+  }
+}
+
+.sf-depth-2{
+  a{
+    &.active{
+      color: #000;
+    }
+  }
+}
+
+// Anchors
+//-----------------------------------------------------------------------------
+// a {}
+
+// a:focus {}
+
+// a.active,
+// a:active,
+// a:hover {}
+
+// Form Input
+//-----------------------------------------------------------------------------
+// input[type="text"],
+// input[type="password"],
+// input[type="date"],
+// input[type="datetime"],
+// input[type="datetime-local"],
+// input[type="month"],
+// input[type="week"],
+// input[type="email"],
+// input[type="number"],
+// input[type="search"],
+// input[type="tel"],
+// input[type="time"],
+// input[type="url"],
+// textarea {
+// }
+
+// input[type="text"],
+// input[type="password"],
+// input[type="date"],
+// input[type="datetime"],
+// input[type="datetime-local"],
+// input[type="month"],
+// input[type="week"],
+// input[type="email"],
+// input[type="number"],
+// input[type="search"],
+// input[type="tel"],
+// input[type="time"],
+// input[type="url"],
+// textarea {
+
+// }
+
+// select {}

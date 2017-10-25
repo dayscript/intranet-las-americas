@@ -1,0 +1,125 @@
+// Non-modular or client styles for .l-header region.
+.logo {
+  margin: 20px 0;
+  position: absolute;
+  @media screen and (min-width: 580px){
+    position: inherit;
+  }
+}
+
+.not-front {
+  .l-featured {
+    background-image: url("../images/background.png");
+    min-height: 160px;
+    border-top: 4px solid $secondary-color;
+    margin-bottom: 42px;
+  }
+}
+
+.front {
+  .l-featured {
+    min-height: 3px;
+    border-top: 4px solid $secondary-color;
+    background-color: $primary-color;
+    margin-bottom: 24px;
+    @media screen and (min-width: 580px) {
+      min-height: 400px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.l-header {
+  background: white;
+  min-height: 120px;
+  @media screen and (min-width: 580px){
+    min-height: auto;
+  }
+}
+
+//Menu
+.menu-americas {
+  text-transform: uppercase;
+  bottom: 0px;
+  top:60px;
+  @media screen and (min-width: 580px){
+    bottom: -94px;
+    top: auto;
+  }
+  div.sf-accordion-toggle.sf-style-simple a {
+    float: right;
+  }
+  ul {
+    li {
+      background: none;
+      border: none;
+      &.active {
+        background-color: $secondary-color;
+
+      }
+    }
+  }
+  .sf-menu.sf-style-simple a {
+    font-family: $font-body;
+    color: #666;
+
+  }
+  .sf-menu.sf-style-simple a.active {
+    font-family: $font-body;
+    color: #fff;
+
+  }
+  .sf-menu.sf-style-simple .sf-depth-2 a.active {
+    font-family: $font-body;
+    color: #666;
+
+  }
+  .sf-menu.sf-style-simple.sf-horizontal li, .sf-menu.sf-style-simple.sf-navbar li {
+    border: 0px;
+  }
+  .sf-depth-1.active {
+    background-color: $secondary-color;
+    color: white;
+    border-radius: 5px 5px 0 0;
+  }
+}
+.sf-menu.sf-style-simple li:hover,
+.sf-menu.sf-style-simple li.sfHover {
+  .sf-depth-2{
+    border-radius: 0;
+  }
+  .sf-sub-indicator{
+    background-image: url('images/simple-arrows2.png');
+    top: 1.5em;
+  }
+}
+
+//Ajustes responsive
+.sf-menu.sf-style-simple.sf-accordion li ul {
+  margin: 0 0 10px 0;
+}
+
+//Usuario
+.block-system-user-menu,.block-multiblock-4 {
+ul li{
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  a{
+    color: white;
+    background: $secondary-color;
+    padding: 6px;
+    border-radius: 5px;
+  }
+}
+}
+.login-user{
+  float: inline-start;
+  margin-right: 10px;
+}
+.cuenta{
+  right: 0px;
+  @media screen and (min-width: 580px){
+    right: -100px;
+  }
+}

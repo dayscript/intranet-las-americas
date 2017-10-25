@@ -1,0 +1,14 @@
+// Non-modular or client styles for the .l-content region.
+#first-time {
+  display: none;
+}
+.container-services{
+  background: $secondary-color;
+  padding: 30px 0;
+  margin: 10px 0 42px 0;
+}
+.not-front{
+  .container-services{
+    display: none;
+  }
+}
