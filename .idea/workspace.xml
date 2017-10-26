@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46177846">
+            <state vertical-scroll-proportion="-12.333333">
               <caret line="107" column="4" selection-start-line="106" selection-start-column="19" selection-end-line="107" selection-end-column="4" />
               <folding />
             </state>
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_block.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_block.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0588236">
-              <caret line="666" column="13" selection-start-line="666" selection-start-column="8" selection-end-line="666" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.6742671">
+              <caret line="384" column="20" selection-start-line="384" selection-start-column="20" selection-end-line="384" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -135,8 +135,8 @@
         <option value="$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/americas/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/sites/all/libraries/superfish/style/simple/simple.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss" />
       </list>
     </option>
   </component>
@@ -637,22 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0588236">
-          <caret line="666" column="13" selection-start-line="666" selection-start-column="8" selection-end-line="666" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.5294118">
@@ -671,8 +655,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46177846">
+        <state vertical-scroll-proportion="-12.333333">
           <caret line="107" column="4" selection-start-line="106" selection-start-column="19" selection-end-line="107" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6742671">
+          <caret line="384" column="20" selection-start-line="384" selection-start-column="20" selection-end-line="384" selection-end-column="20" />
           <folding />
         </state>
       </provider>
