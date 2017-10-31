@@ -6,9 +6,11 @@
 }
 
 //Slide
+.slide{
+  margin-bottom: 24px;
+}
 .container-banner {
   position: relative;
-  margin-bottom: 42px;
   .info {
     position: absolute;
     z-index: 4;
