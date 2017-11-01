@@ -783,3 +783,19 @@
   }
 }
 
+//Promocion del mes
+
+.promocion{
+  border-bottom: 1px solid #f7f7f7;
+  display: inline-block;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  .categoria{
+    text-transform: uppercase;
+    color: $info-color;
+    font-size: 2em;
+  }
+.title{
+  font-size: 3em;
+}
+}
