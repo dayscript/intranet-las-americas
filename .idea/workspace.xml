@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d0ede84b-f0ce-42a2-9908-cf8163f09a1f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/americas/css/americas.css" afterPath="$PROJECT_DIR$/sites/all/themes/americas/css/americas.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss" afterPath="$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss" />
     </list>
     <ignored path="americas.iws" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="_elements.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/base/_elements.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-51.875">
-              <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="104" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -69,8 +68,8 @@
       <file leaf-file-name="_block.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6329527">
-              <caret line="792" column="34" selection-start-line="792" selection-start-column="34" selection-end-line="792" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.7585644">
+              <caret line="150" column="3" selection-start-line="150" selection-start-column="3" selection-end-line="150" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -758,14 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/base/_elements.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-51.875">
-          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-29.375">
@@ -774,10 +765,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/base/_elements.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="104" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6329527">
-          <caret line="792" column="34" selection-start-line="792" selection-start-column="34" selection-end-line="792" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.7585644">
+          <caret line="150" column="3" selection-start-line="150" selection-start-column="3" selection-end-line="150" selection-end-column="3" />
           <folding />
         </state>
       </provider>
