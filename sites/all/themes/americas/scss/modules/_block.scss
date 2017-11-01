@@ -135,7 +135,6 @@
     }
   }
   .categoria{
-    .item-list ul li {
       margin: 20px 0 0 0;
       padding: 0;
       list-style: none;
@@ -143,11 +142,6 @@
       font-size: 0.8em;
       color: $info-color;
       line-height: 0;
-    }
-    .item-list ul {
-      margin: 0;
-      padding: 0;
-    }
   }
 }
 
