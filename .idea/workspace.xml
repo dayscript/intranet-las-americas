@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0ede84b-f0ce-42a2-9908-cf8163f09a1f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/americas/css/americas.css" afterPath="$PROJECT_DIR$/sites/all/themes/americas/css/americas.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_header.scss" afterPath="$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss" afterPath="$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/libraries/superfish/style/simple/simple.css" afterPath="$PROJECT_DIR$/sites/all/libraries/superfish/style/simple/simple.css" />
     </list>
     <ignored path="americas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,18 +38,18 @@
       <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.583334">
+            <state vertical-scroll-proportion="-45.0">
               <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="simple.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/libraries/superfish/style/simple/simple.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="247" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.6986971">
+              <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -67,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_block.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_block.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12214984">
+            <state vertical-scroll-proportion="-1.4705882">
               <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding />
             </state>
@@ -142,9 +140,9 @@
         <option value="$PROJECT_DIR$/sites/all/themes/americas/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/americas/scss/_settings.scss" />
-        <option value="$PROJECT_DIR$/sites/all/libraries/superfish/style/simple/simple.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_header.scss" />
         <option value="$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/sites/all/libraries/superfish/style/simple/simple.css" />
       </list>
     </option>
   </component>
@@ -158,8 +156,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="25" />
+    <option name="x" value="-22" />
+    <option name="y" value="37" />
     <option name="width" value="1920" />
     <option name="height" value="1014" />
   </component>
@@ -420,7 +418,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="25" width="1920" height="1014" extended-state="6" />
+    <frame x="-22" y="37" width="1920" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -727,14 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/libraries/superfish/style/simple/simple.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="243" column="0" selection-start-line="243" selection-start-column="0" selection-end-line="247" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -767,18 +757,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4705882">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.583334">
+        <state vertical-scroll-proportion="-45.0">
           <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
+    <entry file="file://$PROJECT_DIR$/sites/all/libraries/superfish/style/simple/simple.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12214984">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.6986971">
+          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
           <folding />
         </state>
       </provider>
