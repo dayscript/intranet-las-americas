@@ -165,13 +165,9 @@
   <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
     <!--.footer-columns -->
     <section class="row l-footer-columns">
-      <?php if (!empty($page['footer_firstcolumn'])): ?>
-        <div class="footer-first medium-4 columns">
-          <?php print render($page['footer_firstcolumn']); ?>
-        </div>
-      <?php endif; ?>
+
       <?php if (!empty($page['footer_secondcolumn'])): ?>
-        <div class="footer-second medium-8 columns">
+        <div class="footer-second medium-12 columns">
           <?php print render($page['footer_secondcolumn']); ?>
         </div>
       <?php endif; ?>
