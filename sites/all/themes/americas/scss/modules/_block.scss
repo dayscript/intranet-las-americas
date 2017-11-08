@@ -247,8 +247,8 @@
   }
 }
 
-.node-type-article, .node-nota-entretenimiento, .node-galeria, .node-editorial, .node-nota-fonoam-ricas, .node-galeria-general, .node-nota-reconocimientos {
-  .field-name-field-tipo-de-nota, .field-name-field-tipo-nota-entretenimiento, .field-name-field-fecha-del-evento, .node-galeria-general, .node-nota-reconocimientos {
+.node-type-article, .node-nota-entretenimiento, .node-galeria, .node-editorial, .node-nota-fonoam-ricas, .node-galeria-general, .node-nota-reconocimientos, .node-tips-sst {
+  .field-name-field-tipo-de-nota, .field-name-field-tipo-nota-entretenimiento, .field-name-field-fecha-del-evento, .node-galeria-general, .node-nota-reconocimientos, .node-tips-sst {
     .links {
       text-align: left;
       list-style: none;
@@ -391,7 +391,7 @@
 }
 
 // internas basicas
-.node-page, .node-webform, .node-poll, .node-evento, .node-galeria, .node-encuesta, .node-editorial, .view-encuestas-list, .node-article, .node-nota-entretenimiento, .view-directorio, .node-nota-fonoam-ricas, .node-galeria-general, .node-nota-reconocimientos {
+.node-page, .node-webform, .node-poll, .node-evento, .node-galeria, .node-encuesta, .node-editorial, .view-encuestas-list, .node-article, .node-nota-entretenimiento, .view-directorio, .node-nota-fonoam-ricas, .node-galeria-general, .node-nota-reconocimientos, .node-tips-sst {
   background: $white;
   padding: 16px;
   margin-bottom: 36px;
