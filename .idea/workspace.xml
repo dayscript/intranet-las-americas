@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0ede84b-f0ce-42a2-9908-cf8163f09a1f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/americas/css/americas.css" afterPath="$PROJECT_DIR$/sites/all/themes/americas/css/americas.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss" afterPath="$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss" />
     </list>
     <ignored path="americas.iws" />
@@ -68,8 +69,8 @@
       <file leaf-file-name="_block.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71550256">
-              <caret line="689" column="3" selection-start-line="689" selection-start-column="3" selection-end-line="689" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.7410562">
+              <caret line="690" column="2" selection-start-line="690" selection-start-column="2" selection-end-line="690" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -700,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71550256">
-          <caret line="689" column="3" selection-start-line="689" selection-start-column="3" selection-end-line="689" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.7410562">
+          <caret line="690" column="2" selection-start-line="690" selection-start-column="2" selection-end-line="690" selection-end-column="2" />
           <folding />
         </state>
       </provider>

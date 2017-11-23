@@ -689,7 +689,11 @@
     font-size: 0.8em;
   }
 }
-
+#user-pass {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .front.not-logged-in {
   .row.l-main {
     display: none;
