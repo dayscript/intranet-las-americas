@@ -672,6 +672,16 @@
 
 //Login
 
+.page-user-password{
+  .button-group{
+    display: none;
+  }
+  .l-main {
+    padding: 30px;
+    text-align: center;
+  }
+}
+
 .front.not-logged-in {
   .row.l-main {
     display: none;
