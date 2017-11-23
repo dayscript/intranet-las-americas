@@ -869,4 +869,13 @@
   #edit-preview{
     display: none;
   }
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 0;
+  }
+  .fieldset-title {
+    text-transform: uppercase;
+    font-size: 1.2em;
+  }
 }
