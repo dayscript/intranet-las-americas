@@ -69,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.43441227">
-              <caret line="679" column="4" selection-start-line="679" selection-start-column="4" selection-end-line="679" selection-end-column="4" />
+              <caret line="679" column="18" selection-start-line="679" selection-start-column="18" selection-end-line="679" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -700,7 +700,7 @@
     <entry file="file://$PROJECT_DIR$/sites/all/themes/americas/scss/modules/_block.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43441227">
-          <caret line="679" column="4" selection-start-line="679" selection-start-column="4" selection-end-line="679" selection-end-column="4" />
+          <caret line="679" column="18" selection-start-line="679" selection-start-column="18" selection-end-line="679" selection-end-column="18" />
           <folding />
         </state>
       </provider>

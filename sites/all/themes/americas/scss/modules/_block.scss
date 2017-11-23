@@ -673,11 +673,11 @@
 //Login
 
 .not-logged-in {
-  .l-main, .l-triptych, .logo {
-    display: none;
-  }
+   .l-triptych, .logo {
+     display: none;
+   }
   .container-services{
-
+    display: none;
   }
 
   .logo {
