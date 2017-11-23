@@ -817,7 +817,7 @@
 //Muro
 .page-mural {
   #cboxContent {
-    .block-superfish {
+    .block-superfish,.login-user, .block-system-user-menu, .container-footer {
       display: none;
     }
   }
