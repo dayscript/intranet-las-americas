@@ -674,6 +674,9 @@
 
 
 .not-logged-in {
+  #main-content{
+    display: none;
+  }
    .l-triptych, .logo {
      display: none;
    }
