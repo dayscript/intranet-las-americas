@@ -671,14 +671,15 @@
 }
 
 //Login
-.page-user-password{
-  .l-main{
-    display: block;
-  }
-}
+
 
 .not-logged-in {
-  .l-main, .l-triptych, .logo {
+  .front{
+    .l-main{
+      display: none;
+    }
+  }
+   .l-triptych, .logo {
      display: none;
    }
   .container-services{
