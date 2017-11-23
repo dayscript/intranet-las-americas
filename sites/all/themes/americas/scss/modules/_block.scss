@@ -673,9 +673,13 @@
 //Login
 
 .not-logged-in {
-  .container-services, .l-main, .l-triptych, .logo {
+  .l-main, .l-triptych, .logo {
+    display: none;
+  }
+  .container-services{
 
   }
+
   .logo {
     text-align: center;
   }
@@ -817,11 +821,11 @@
 //Muro
 .page-mural {
   #cboxContent {
-    .block-superfish,.login-user, .block-system-user-menu, .container-footer {
+    .block-superfish, .login-user, .block-system-user-menu, .container-footer {
       display: none;
     }
   }
-  .borrado{
+  .borrado {
     display: none;
   }
   .edicion {
@@ -831,7 +835,7 @@
     width: 46px;
     border-radius: 4px;
     margin: 8px 0;
-    a{
+    a {
       color: white;
     }
   }
