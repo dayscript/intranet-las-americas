@@ -672,95 +672,47 @@
 
 //Login
 
-.front{
-  .not-logged-in {
-    .l-main,.l-triptych, .logo {
-      display: none;
-    }
-    .container-services{
-      display: none;
-    }
 
-    .logo {
-      text-align: center;
-    }
-    .logo-login {
-      margin: 20px 0;
-    }
-    .l-featured {
-      text-align: center;
-      border-top: 7px solid $info-color;
-      background-image: url("../images/background-login.jpg");
-      margin-bottom: 0;
-      padding: 14px;
-      min-height: 350px;
-    }
-    .container-featured {
-      text-align: center;
-    }
-    .block-title {
-      color: white;
-      font-size: 1.4em;
-      font-family: $font-light;
-      margin-top: 18px;
-    }
-    .item-list ul li {
-      margin: 0 12px;
-      padding: 0;
-      list-style: none;
-      a {
-        color: white;
-        font-size: 0.9em;
-        &:hover {
-          color: $secondary-color;
-        }
-      }
-    }
+.not-logged-in {
+   .l-main,.l-triptych, .logo {
+     display: none;
+   }
+  .container-services{
+    display: none;
   }
-}
-.not-front{
 
-  .not-logged-in {
-    .l-triptych, .logo {
-      display: none;
-    }
-    .container-services{
-      display: none;
-    }
-
-    .logo {
-      text-align: center;
-    }
-    .logo-login {
-      margin: 20px 0;
-    }
-    .l-featured {
-      text-align: center;
-      border-top: 7px solid $info-color;
-      background-image: url("../images/background-login.jpg");
-      margin-bottom: 0;
-      padding: 14px;
-      min-height: 350px;
-    }
-    .container-featured {
-      text-align: center;
-    }
-    .block-title {
+  .logo {
+    text-align: center;
+  }
+  .logo-login {
+    margin: 20px 0;
+  }
+  .l-featured {
+    text-align: center;
+    border-top: 7px solid $info-color;
+    background-image: url("../images/background-login.jpg");
+    margin-bottom: 0;
+    padding: 14px;
+    min-height: 350px;
+  }
+  .container-featured {
+    text-align: center;
+  }
+  .block-title {
+    color: white;
+    font-size: 1.4em;
+    font-family: $font-light;
+    margin-top: 18px;
+  }
+  .item-list ul li {
+    margin: 0 12px;
+    padding: 0;
+    list-style: none;
+    a {
       color: white;
-      font-size: 1.4em;
-      font-family: $font-light;
-      margin-top: 18px;
-    }
-    .item-list ul li {
-      margin: 0 12px;
-      padding: 0;
-      list-style: none;
-      a {
-        color: white;
-        font-size: 0.9em;
-        &:hover {
-          color: $secondary-color;
-        }
+      font-size: 0.9em;
+      &:hover {
+        color: $secondary-color;
       }
     }
   }
