@@ -820,6 +820,17 @@
     .block-superfish,.login-user, .block-system-user-menu, .container-footer {
       display: none;
     }
-
+  }
+  .borrado{
+    display: none;
+  }
+  .edicion {
+    background: white;
+    padding: 3px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    width: 46px;
+    border-radius: 4px;
+    margin: 8px 0;
   }
 }
