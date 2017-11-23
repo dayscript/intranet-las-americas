@@ -672,13 +672,12 @@
 
 //Login
 
-
-.not-logged-in {
-  .page-user-password{
-    .l-main {
-
-    }
+.front.not-logged-in {
+  .row.l-main {
+    display: none;
   }
+}
+.not-logged-in {
    .l-triptych, .logo {
      display: none;
    }
