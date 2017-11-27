@@ -216,6 +216,21 @@
 
 .links {
   text-align: center;
+  li {
+    list-style: none;
+    color: white;
+    margin-bottom: 20px;
+
+    a {
+      color: white;
+      background-color: $secondary-color;
+      padding: 8px 20px;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      border-radius: 4px;
+
+    }
+  }
   ul {
     margin: 24px 0 0 0;
     padding: 0;
@@ -258,6 +273,16 @@
   }
 }
 
+.choices{
+  .option{
+    width: 82%;
+    vertical-align: top;
+    color: white;
+  }
+  .form-item{
+    margin-bottom: 1.4em;
+  }
+}
 //Internas
 .not-front {
   span.date-display-single {
