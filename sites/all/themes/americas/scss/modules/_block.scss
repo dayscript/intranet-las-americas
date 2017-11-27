@@ -72,10 +72,12 @@
     display: none;
   }
 }
-.autor {
-  color: $info-color;
-  margin-bottom: 18px;
-  margin-top: -20px;
+.section-editorial{
+  .autor {
+    color: $info-color;
+    margin-bottom: 18px;
+    margin-top: -20px;
+  }
 }
 //Evento destacado
 
