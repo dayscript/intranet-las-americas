@@ -67,8 +67,12 @@
     margin-top: 24px;
   }
 }
+.front{
+  .autor{
+    display: none;
+  }
+}
 .autor {
-  font-weight: bolder;
   color: $info-color;
   margin-bottom: 18px;
   margin-top: -20px;
