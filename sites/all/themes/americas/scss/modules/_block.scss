@@ -67,7 +67,12 @@
     margin-top: 24px;
   }
 }
-
+.autor {
+  font-weight: bolder;
+  color: $info-color;
+  margin-bottom: 18px;
+  margin-top: -20px;
+}
 //Evento destacado
 
 .container-event {
