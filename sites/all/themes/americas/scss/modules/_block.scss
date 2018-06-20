@@ -814,7 +814,7 @@
 
 //Mural
 .container-post {
-  min-height: 551px;
+  min-height: 560px;
   background: $secondary-color;
   padding: 12px;
   margin-bottom: 27px;
@@ -830,6 +830,15 @@
   .body-post {
     font-size: 0.9em;
     margin: 8px 0;
+  }
+  .body-post {
+    text-align: center;
+    .vud-widget-thumbs {
+      float: none;
+    }
+    .voted-how {
+      display: none;
+    }
   }
   img {
     width: 100%;
