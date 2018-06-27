@@ -835,6 +835,9 @@
     text-align: center;
     .vud-widget-thumbs {
       float: none;
+      .down-score {
+        display: none;
+      }
     }
     .voted-how {
       display: none;
