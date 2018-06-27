@@ -835,6 +835,9 @@
     text-align: center;
     .vud-widget-thumbs {
       float: none;
+      .up-score {
+        border-right: none;
+      }
       .down-score {
         display: none;
       }
