@@ -833,13 +833,31 @@
   }
   .voto-muro {
     text-align: center;
+    margin-top: 1em;
     .vud-widget-thumbs {
       float: none;
       .up-score {
         border-right: none;
+        margin-left: 38px;
+        vertical-align: middle;
+        margin-right: 5px;
       }
       .down-score {
         display: none;
+        margin-left: 38px;
+      }
+      .vote-current-score {
+        visibility: collapse;
+        display: inline-block;
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+        line-height: 1em;
+        vertical-align: middle;
+        strong {
+          visibility: visible;
+          margin-left: -56px;
+        }
       }
     }
     .voted-how {
