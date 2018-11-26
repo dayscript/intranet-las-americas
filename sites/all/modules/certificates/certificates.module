@@ -1,0 +1,101 @@
+<?php
+
+/**
+ * Implements hook_user_update().
+ */
+function certificates_user_update(&$edit, $account, $category) {
+	send_mail($edit,$account, $category);
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function certificates_uninstall() {
+  db_drop_table('certificates');
+}
+
+
+/**
+ * Implements hook_mail().
+ */
+function certificates_mail($key, &$message, $params) {
+ switch ($key) {
+    case 'notification':
+      $message['subject'] = $params['subject'];
+      $message['body'][] = $params['body'];
+      break;
+  }
+}
+
+/**
+ * Implements function send_mail().
+ */
+function send_mail($edit,$account, $category){
+
+ $msj = t('Ingresa a descargarlo en la Intranet Hotel las Americas Sección (Nuestros Servicios)');	
+ 
+ $wrapper = entity_metadata_wrapper('user', $account);
+  if (!empty($account->field_comprobantes_de_pago['und']) || !empty($account->field_certificacion_laboral['und'])) {
+		// Send Certificado laboral
+		$fid  = $wrapper->field_certificacion_laboral->value()['fid'];
+		if (isset($fid)) {
+			$file = file_load($fid);
+			$type_cert = explode('/', $file->uri);
+			$result = certificates_consult($account,$file,$type_cert[2]);
+			if (empty($result)) {
+				  $params = array(
+				    'subject' => t('CERTIFICADO LABORAL-' . variable_get('site_name')),
+				    'body' => check_markup(t('Tienes certificados nuevos :' . $file->filename . '<br>' . $msj),'full_html'),
+				  );
+				  drupal_mail('certificates', 'notification', $account->mail, language_default(), $params);
+				  certificates_insert($account,$file,$fid,$type_cert[2]);
+			}  					
+		}
+		// Send Comprobantes de pago
+		foreach ($wrapper->field_comprobantes_de_pago->value() as $key => $value) {
+		  $file = file_load($value['fid']);
+		  $type_cert = explode('/', $file->uri); 
+		  $result_com['comprobantes'][$key]  = certificates_consult($account,$file,$type_cert[2]);
+		  // Nuevos Comprobantes de pago
+		  if ($result_com['comprobantes'][$key] == FALSE) {
+		  	  certificates_insert($account,$file,$value['fid'],$type_cert[2]);
+		      $files_comprobante =  $files_comprobante . ' ' . $file->filename;
+		  }
+		}
+		if (isset($files_comprobante)) {
+			  $params = array(
+			    'subject' => t('COMPROBANTES DE PAGO-' . variable_get('site_name')),
+			    'body' => check_markup(t('Tienes nuevos comprobantes de pago :' . $files_comprobante . '<br>' . $msj),'full_html'),
+			  );
+			  drupal_mail('certificates', 'notification', $account->mail, language_default(), $params);
+		}
+  	}
+}
+
+/**
+ * Implements function certificates_consult().
+ */
+function certificates_consult($account,$file,$type_cert){
+  	  $result = db_select('certificates', 'n')
+	    ->fields('n')
+	    ->condition('uid', $account->uid,'=')
+	    ->condition('filename', $file->filename,'=')
+	    ->condition('type', $type_cert,'=')
+	    ->execute()
+	    ->fetchAssoc();
+	return $result; 
+}
+/**
+ * Implements function certificates_insert().
+ */
+function certificates_insert($account,$file,$fid,$type_cert){
+	$cti = db_insert('certificates') 
+	->fields(array(
+	  'uid' => $account->uid,
+	  'filename' => $file->filename,
+	  'fid' => $fid,
+	  'type' => $type_cert,
+	  'certificate' => file_create_url($file->uri),
+	))
+	->execute(); 
+}
